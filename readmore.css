@@ -1,0 +1,33 @@
+body {
+	background-image: url("Webpage back ground.png") ;
+	font-family: sans-serif;
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 10px;
+	margin-right: 50px;
+}
+
+.back a{
+	background-color: red;
+	padding: 10px 38px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 90px;
+}
+
+.back a:hover, .back a:focus, .back a:active{
+	background-color: #a52a2a;
+	color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1) ;
+}
+
+.logo img{
+	margin-left: 600px;
+	width: 150px;
+	height: auto;
+}

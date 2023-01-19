@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+
+.section{
+	width: 100%;
+	min-height: 100vh;
+}
+
+.container{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+
+
+.image-section img{
+	width: 100px;
+	height: auto;
+	display: block;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+body {
+ background-image: url("Webpage back ground.png");
+ background-color: #cccccc;
+}
+
+.content{
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.content-section .content h3{
+	margin-top: 5px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 17px;
+	line-height: 1.5;
+
+}
+
+.readmore a{
+	background-color: red;
+	padding: 12px 40px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.readmore a:hover, .readmore a:focus, .readmore a:active{
+	background-color: #a52a2a;
+	color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1) ;
+}
+
+.back a{
+	background-color: red;
+	padding: 10px 38px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.back a:hover, .back a:focus, .back a:active{
+	background-color: #a52a2a;
+	color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1) ;
+}
